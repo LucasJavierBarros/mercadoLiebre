@@ -1,0 +1,18 @@
+:root{
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+
+    --textSizeCuerpos: 12px;
+    --textSizeTitulares: 24px;
+    --textSizePrecios: 18px;
+    --textSizeDescuentos: 16px;
+    --texteSizeDescripciones: 16px;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
