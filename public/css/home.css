@@ -1,6 +1,7 @@
 .home {
     background-color: var(--colorAmarillo);
     font-family: 'Roboto', sans-serif;
+    
 }
 h1, h3{
     font-size: var(--textSizeTitulares);
@@ -24,6 +25,7 @@ h1, h3{
 .home__header__nav--list {
     list-style: none;
     padding: 20px 0 0 0;
+    display: none;
 
 }
 
@@ -44,22 +46,41 @@ h1, h3{
     padding: 10px;
     border-radius: 5px;
 }
-
+.home__header__banner img{
+    width: 100%;
+    margin-top: 10px;
+}
 /*------- MAIN-------  */
 .home__main{
-    padding: 15px;
+    width: 90vw;
+    margin: auto;
     text-align: center;
 }
 
 .home__main__section--product{
     padding: 15px;
     background-color: white;
-    border: 2px solid var(--colorGrisOscuro);
     margin: 10px;
     border-radius: 10px;
 }
-.home__main__section--product--des, h5{
+.home__main__section--contenedor{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    text-align: left;
+}
+.home__main__section--contenedor h5{
     font-size: var(--textSizeDescripciones);
+    color: var(--colorGrisOscuro);
+    margin-top: 10px;
+    display: none;
+}
+.home__main__section--contenedor i{
+    border-radius: 50%;
+    border: 1px var(--colorVerde) solid;
+    padding: 7px;
+}
+.home__main__section--contenedor i, .home__main__section--product--des{
+    color: var(--colorVerde);
 }
 .home__main__section--product img {
     width: 100%;
@@ -86,4 +107,22 @@ h1, h3{
 .home__footer--copy, .home__footer__section p{
     font-size: var(--textSizeCuerpos)
    
+}
+
+@media (min-width:361px){
+    .home__main__section--contenedor h5{
+        display: block;
+    }
+    .home__header__nav--list{
+        display: block;
+    }  
+     .home__main__section--product{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   }
+   .burger-menu i{
+    display: none;
+   }
+}
+
+@media (min-width:769px){
 }
