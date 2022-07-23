@@ -1,4 +1,4 @@
-:root{
+:root {
     --colorAmarillo: #EAC926;
     --colorAzul: #03264C;
     --colorCeleste: #1259c3;
@@ -12,8 +12,16 @@
     --textSizeDescuentos: 16px;
     --texteSizeDescripciones: 16px;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* LABEL ERROR */
+.error{
+    display: block;
+   color: red;
+   font-size: 14px;
 }

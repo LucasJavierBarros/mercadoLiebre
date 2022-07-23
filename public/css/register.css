@@ -1,0 +1,74 @@
+.register__main {
+    width: 90vw;
+    margin: auto;
+    border-radius: 15px;
+    background-color: var(--colorGrisClaro);
+}
+
+.register__main form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.register__main__form input {
+    width: 90%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid rgb(185, 184, 184);
+    outline: none;
+}
+
+.compra-venta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(185, 184, 184);
+}
+
+.compra-venta p {
+    margin: 10px 0px 15px 0px;
+
+}
+
+.compra-venta input {
+    width: 20px;
+}
+
+.opciones {
+    border-bottom: 1px solid rgb(185, 184, 184);
+}
+
+.opciones input {
+    width: 20px;
+    margin-bottom: 10px;
+
+}
+
+.opciones p {
+    margin-bottom: 15px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botones button {
+    width: 110px;
+    background-color: var(--colorCeleste);
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 15px;
+}
+
+.botones a {
+    text-decoration: none;
+    color: white;
+}

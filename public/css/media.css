@@ -1,0 +1,103 @@
+/* tableta */
+@media (min-width:700px) {
+
+    /* HEADER */
+    .home__header a {
+        width: 30%;
+    }
+
+    .home__header p {
+        width: 30%;
+    }
+
+    .home__header form {
+        width: 30%;
+    }
+
+    .home__header--search {
+        justify-content: space-between;
+    }
+
+    .home__main__section--contenedor h5 {
+        display: block;
+    }
+
+    .home__header nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home__header__nav--list {
+        margin: 0 20px;
+        display: flex;
+        gap: 10px;
+
+    }
+
+    .burger-menu i {
+        display: none;
+    }
+
+    /* MAIN */
+    .home__main__section--product {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 43%;
+    }
+
+    /* REGISTRO */
+    .register__main {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .register__main__form input {
+        width: 100%;
+    }
+
+    .register__main {
+        width: 80vw;
+    }
+
+    .compra-venta input,
+    .opciones input {
+        width: 20px;
+    }
+    /* LOGIN */
+    .login__main {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .login__main__form input {
+        width: 100%;
+    }
+
+    .login__main {
+        width: 50vw;
+    }
+
+}
+
+@media (min-width:1024px) {
+    .home__header__nav--list {
+        padding: 15px;
+        gap: 30px;
+    }
+
+    .home__main__section--product {
+        width: 22%;
+    }
+
+    .home__header--search {
+        gap: 30px;
+    }
+
+    .home__header__nav--list a {
+        font-size: 15px;
+    }
+
+    /* REGISTRO */
+
+    .register__main {
+        width: 70vw;
+    }
+
+}
